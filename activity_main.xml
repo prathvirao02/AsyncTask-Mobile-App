@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:paddingTop="50dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="563dp"
+        android:background="#003E35"
+        android:gravity="center"
+        android:text="ASYNCHRONOUS TASK"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="91sp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="478dp"
+        android:backgroundTint="#FFC107"
+        android:text="START TASK"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/buttonstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="390dp"
+        android:backgroundTint="#00BCD4"
+        android:text="END TASK"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttoncalculate"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="302dp"
+        android:backgroundTint="#E54AFF"
+        android:text="CALCULATE"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/txtmarquee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="189dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="10dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Demonstration of Asynchronous Task !!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--on below line we are adding an image view-->
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/icon"
+        app:tint="@color/black" />
+
+    <!--on below line we are creating progress bar-->
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="99dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="156dp"
+        android:indeterminateTint="#00E2FF" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="402dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="205dp"
+        app:srcCompat="@drawable/icon" />
+
+</RelativeLayout>
